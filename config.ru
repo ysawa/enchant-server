@@ -4,5 +4,5 @@ require 'sinatra'
 set :run, false
 set :environment, :production
 
-require 'server.rb'
+require './server'
 run Sinatra::Application
